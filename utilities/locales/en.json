@@ -1,0 +1,512 @@
+{
+  "messages": {
+    "brand": { "value": "The Content Corner", "link": "/" },
+    "validation": {
+      "min": "{_field_} must be at least {_length_} characters",
+      "max": "{_field_} must be a maximum of {_length_} characters",
+      "required": "{_field_} is required",
+      "numeric": "{_field_} must be a number",
+      "integer": "{_field_} must be a number",
+      "slug": "{_field_} can only contain English letters, numbers and hyphens",
+      "string": "{_field_} must be alphabetic",
+      "alpha_spaces": "{_field_} must be alphanumeric",
+      "alpha_num": "{_field_} can only be numbers or letters",
+      "special_char_not_allowed": "{_field_} is not valid",
+      "alpha": "{_field_} can only be alphabetic",
+      "confirmed": "{_field_} does not match",
+      "email": "{_field_} is not valid",
+      "password": "{_field_} must be at least 8 characters and contain upper and lower case English letters",
+      "mobile": "{_field_} is not valid"
+    },
+    "labels": {
+      "fullName": "Fullname",
+      "email": "Email",
+      "description": "Description",
+      "number": "Number",
+      "password": "Password",
+      "videos": "Videos",
+      "video": "Video",
+      "posts": "Posts",
+      "post": "Post",
+      "podcasts": "Podcasts",
+      "podcast": "Podcast",
+      "readMore": "Read More",
+      "watchingVideo": "Watching Video"
+    },
+    "components": {
+      "layouts": {
+        "header": {
+          "items": [
+            { "text": "Services", "link": "/" },
+            { "text": "Customers", "link": "/Customers" },
+            { "text": "Company", "link": "/Company" },
+            { "text": "Showroom", "link": "/Showroom" }
+
+          ],
+          "login": { "text": "Book a Demo", "link": "/login" }
+        },
+        "footer": {
+          "header": {
+            "firstSection": {
+              "title": "GET AN EASY QUOTE",
+              "subtitle": "Sign Up For Web Hosting Today!"
+            },
+            "secondSection": {
+              "title": "Starting at Only",
+              "subtitle": { "text": "$4.50", "duration": "/mo" }
+            },
+            "link": { "text": "Get started now", "link": "#" }
+          },
+          "siteInfo": {
+            "title": "The Content Corner",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint debitis doloremque similique ut rem eos libero veritatis nisi, repellat, in tempore, totam distinctio atque dolor aut voluptate? Voluptatibus, eius? Consequatur.",
+            "socialMedia": [
+              {
+                "icon": { "prefix": "fa-brands", "value": "fa-facebook-f" },
+                "link": "#"
+              },
+              {
+                "icon": { "prefix": "fa-brands", "value": "fa-x-twitter" },
+                "link": "#"
+              },
+              {
+                "icon": { "prefix": "fa-brands", "value": "fa-instagram" },
+                "link": "#"
+              }
+            ]
+          },
+          "usefullLinks": {
+            "title": "Useful Links",
+            "links": [
+              { "text": "Servers", "link": "#" },
+              { "text": "Windows Hosting", "link": "#" },
+              { "text": "Cloud Hosting", "link": "#" },
+              { "text": "Linux Servers", "link": "#" },
+              { "text": "Windows Servers", "link": "#" },
+              { "text": "OS Servers", "link": "#" }
+            ]
+          },
+          "navigational": {
+            "title": "Navigational",
+            "links": [
+              { "text": "Home", "link": "/" },
+              { "text": "Posts", "link": "/posts" },
+              { "text": "Podcasts", "link": "/podcasts" },
+              { "text": "Vidoes", "link": "/videos" },
+              { "text": "About Us", "link": "/about-us" },
+              { "text": "Contact Us", "link": "/contact-us" }
+            ]
+          },
+          "office": {
+            "title": "Office",
+            "items": [
+              {
+                "text": "203 Fake St. Mountain View, San Francisco, California, USA",
+                "icon": { "prefix": "fa-solid", "value": "fa-location-dot" }
+              },
+              {
+                "text": "+1 392 3929 210",
+                "icon": { "prefix": "fa-solid", "value": "fa-phone" }
+              },
+              {
+                "text": "info@example.com",
+                "icon": { "prefix": "fa-solid", "value": "fa-envelope" }
+              }
+            ]
+          },
+          "copyright": {
+            "text": "Copyright ©{_date_} All rights reserved"
+          }
+        }
+      },
+      "pages": {
+        "home": {
+          "meta": {
+            "title": "Home",
+            "name": "description",
+            "content": "Home Page",
+            "description": "Home page description"
+          },
+          "latestContent": {
+            "title": "Our Latest Content",
+            "tabs": [
+              { "text": "Podcasts", "value": "podcasts" },
+              { "text": "Videos", "value": "videos" },
+              { "text": "Posts", "value": "posts" }
+            ]
+          },
+          "dauntForSales":{
+            "title": "Feel daunting for your eCommerce sales?",
+            "values": ["銷售量停擺", "尺寸不合帶來退貨率","顧客忠誠度低","客服成本佔比高"      
+            ]
+          }
+          
+        },
+        "contactUs": {
+          "meta": {
+            "title": "Contact Us",
+            "name": "description",
+            "content": "Contact Us Page",
+            "description": "Contact Us page description"
+          },
+          "title": "Please fill out the form below to send us a ticket",
+          "inputs": {
+            "fullName": {
+              "rules": "required|min:3"
+            },
+            "email": {
+              "rules": "required|email"
+            },
+            "description": {
+              "rules": "required|min:8"
+            }
+          },
+          "btn": "Send"
+        },
+        "aboutUs": {
+          "meta": {
+            "title": "About Us",
+            "name": "description",
+            "content": "About Us Page",
+            "description": "About Us page description"
+          },
+          "title": "About Us",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.",
+          "information": {
+            "title": "Our Information",
+            "items": [
+              {
+                "title": "Address",
+                "text": "203 Fake St. Mountain View, San Francisco, California, USA"
+              },
+              { "title": "Phone", "text": "+1 392 3929 210" },
+              { "title": "Email", "text": "info@example.com" }
+            ],
+            "socialMedia": [
+              {
+                "icon": { "prefix": "fa-brands", "value": "fa-facebook-f" },
+                "link": "#"
+              },
+              {
+                "icon": { "prefix": "fa-brands", "value": "fa-x-twitter" },
+                "link": "#"
+              },
+              {
+                "icon": { "prefix": "fa-brands", "value": "fa-instagram" },
+                "link": "#"
+              }
+            ]
+          }
+        },
+        "posts": {
+          "meta": {
+            "title": "Posts",
+            "name": "description",
+            "content": "Posts Page",
+            "description": "Posts page description"
+          },
+          "title": "Posts"
+        },
+        "videos": {
+          "meta": {
+            "title": "Videos",
+            "name": "description",
+            "content": "Videos Page",
+            "description": "Videos page description"
+          },
+          "title": "Videos"
+        },
+        "podcasts": {
+          "meta": {
+            "title": "Podcasts",
+            "name": "description",
+            "content": "Podcasts Page",
+            "description": "Podcasts page description"
+          },
+          "title": "Podcasts"
+        },
+        "login": {
+          "meta": {
+            "title": "Login",
+            "name": "description",
+            "content": "Login Page",
+            "description": "Login page description"
+          },
+          "title": "Please fill out the form below to login",
+          "inputs": {
+            "email": {
+              "rules": "required|email"
+            },
+            "password": {
+              "rules": "required|password"
+            }
+          },
+          "btn": "Send",
+          "sampleInformation": {
+            "title": "Sample User Information:"
+          }
+        }
+      },
+      "default": {
+        "home": {
+          "information": {
+            "title": "Landing",
+            "subtitles": {
+              "first": "Posts,",
+              "second": "Podcasts,",
+              "third": "Videos"
+            },
+            "text": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. voluptatibus possimus aspernatur vero ea mollitia officia provident ab eum laudantium hic quos?",
+            "link": { "text": "Get in touch", "link": "/" },
+            "searchDomain": {
+              "firstSection": {
+                "title": "Search Your Domain Name",
+                "subtitle": "A small river named Duden flows by their place"
+              },
+              "secondSection": {
+                "inputPlaceholder": "Enter your domain name...",
+                "selectbox": [
+                  { "text": ".com", "price": "9.9", "priceType": "$" },
+                  { "text": ".net", "price": "8.9", "priceType": "$" },
+                  { "text": ".org", "price": "7.9", "priceType": "$" },
+                  { "text": ".shop", "price": "6.9", "priceType": "$" }
+                ],
+                "btn": "Search"
+              }
+            }
+          },
+          "whyChooseUs": {
+            "title": "Why Choose Us",
+            "subtitle": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
+            "cards": [
+              {
+                "title": "Super Fast Server",
+                "icon": "cloud",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "Daily Backups",
+                "icon": "server",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "Technical Services",
+                "icon": "customer-service",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "Secure and Reliable",
+                "icon": "life-insurance",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "DNS Control",
+                "icon": "cloud-service",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "24/7 Support",
+                "icon": "cogwheel",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              }
+            ]
+          },
+          "infBenefits":{
+            "cards": [
+              {
+                "title": "InfFITS helps you",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "加速選購流程",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "提升轉換率",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "回購率上升",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "退購率下降",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "降低客服成本",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              }
+            ]
+          },
+          "trustedOnUs": {
+            "title": "MORE THAN 12,000 WEBSITES TRUSTED HOSTED",
+            "items": [
+              { "text": "CMS Installation", "value": "12000" },
+              { "text": "Awards Won", "value": "100" },
+              { "text": "Registered Domains", "value": "10000" },
+              { "text": "Satisfied Customers", "value": "9000" }
+            ]
+          },
+          "ourMainServices": {
+            "title": "Our Main Services",
+            "description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.",
+            "cards": [
+              {
+                "title": "Super Fast Server",
+                "icon": "cloud-service",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "Daily Backups",
+                "icon": "cloud",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "Technical Services",
+                "icon": "server",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              },
+              {
+                "title": "Secure and Reliable",
+                "icon": "life-insurance",
+                "body": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+              }
+            ]
+          },
+          "ourBestPricing": {
+            "title": "Our Best Pricing",
+            "cards": [
+              {
+                "type": "FREE",
+                "priceType": "$",
+                "price": "0",
+                "duration": "mo",
+                "featureText1": "100% free. Forever",
+                "featureText2": "Enjoy All The Features",
+                "featureText3": "All features",
+                "features": [
+                  { "text": "150", "volumeType": "GB", "type": "Bandwidth" },
+                  { "text": "100", "volumeType": "GB", "type": "Storage" },
+                  { "text": "$1.00 / ", "volumeType": "GB", "type": "Overages" }
+                ],
+                "btn": { "text": "Choose Plan", "link": "/" }
+              },
+              {
+                "type": "STARTUP",
+                "priceType": "$",
+                "price": "19",
+                "duration": "mo",
+                "featureText1": "All features are included",
+                "featureText2": "Enjoy All The Features",
+                "featureText3": "All features",
+                "features": [
+                  { "text": "450", "volumeType": "GB", "type": "Bandwidth" },
+                  { "text": "400", "volumeType": "GB", "type": "Storage" },
+                  { "text": "$2.00 / ", "volumeType": "GB", "type": "Overages" }
+                ],
+                "btn": { "text": "Choose Plan", "link": "/" }
+              },
+              {
+                "type": "PREMIUM",
+                "priceType": "$",
+                "price": "49",
+                "duration": "mo",
+                "featureText1": "All features are included",
+                "featureText2": "Enjoy All The Features",
+                "featureText3": "All features",
+                "features": [
+                  { "text": "250", "volumeType": "GB", "type": "Bandwidth" },
+                  { "text": "200", "volumeType": "GB", "type": "Storage" },
+                  { "text": "$5.00 / ", "volumeType": "GB", "type": "Overages" }
+                ],
+                "btn": { "text": "Choose Plan", "link": "/" }
+              },
+              {
+                "type": "PRO",
+                "priceType": "$",
+                "price": "99",
+                "duration": "mo",
+                "featureText1": "All features are included",
+                "featureText2": "Enjoy All The Features",
+                "featureText3": "All features",
+                "features": [
+                  { "text": "450", "volumeType": "GB", "type": "Bandwidth" },
+                  { "text": "400", "volumeType": "GB", "type": "Storage" },
+                  {
+                    "text": "$20.00 / ",
+                    "volumeType": "GB",
+                    "type": "Overages"
+                  }
+                ],
+                "btn": { "text": "Choose Plan", "link": "/" }
+              }
+            ]
+          },
+          "latestPodcasts": {
+            "listenToPodcast": "Listen to the podcast"
+          },
+          "latestPosts": {},
+          "latestVideos": {}
+        }
+      }
+    },
+    "other": {
+      "filters": {
+        "title": "Filter {_text_}",
+        "items": [
+          { "text": "Newest", "value": "newest" },
+          { "text": "Oldest", "value": "oldest" },
+          { "text": "Most Popular", "value": "most-popular" }
+        ]
+      },
+      "languages": [
+        {
+          "text": "English",
+          "value": "en",
+          "link": "/en",
+          "imgSrc": "/icons/usa-flag-96.png",
+          "dir": "ltr"
+        },
+        {
+          "text": "Farsi",
+          "value": "fa",
+          "link": "/fa",
+          "imgSrc": "/icons/iran-flag-96.png",
+          "dir": "rtl"
+        }
+      ],
+      "themes": [
+        {
+          "text": "System Mode",
+          "value": "auto",
+          "icon": { "prefix": "fa-solid", "value": "fa-desktop" }
+        },
+        {
+          "text": "Dark Mode",
+          "value": "dark",
+          "icon": { "prefix": "fa-solid", "value": "fa-moon" }
+        },
+        {
+          "text": "Light Mode",
+          "value": "light",
+          "icon": { "prefix": "fa-solid", "value": "fa-sun" }
+        }
+      ],
+      "links": {
+        "home": "/",
+        "aboutUs": "/about-us",
+        "contactUs": "/contact-us",
+        "videos": "/videos",
+        "podcasts": "/podcasts",
+        "posts": "/posts"
+      },
+      "toasts": {
+        "loggedInSuccessfuly": "You Logged In Successfuly",
+        "credentialsDoesNotMatch": "Credentials does not match",
+        "unauthorized": "You don't have access to this page, please login first",
+        "ticketSentSuccessfuly": "Ticket Sent Successfuly"
+      }
+    }
+  }
+}
