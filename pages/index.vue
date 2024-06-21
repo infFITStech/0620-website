@@ -40,6 +40,30 @@
       </div>
     </div>
 
+    <div class="lg:py-0 py-4 dark:bg-[#fda]">
+      <div class="container lg:px-4 px-2">
+        <MainHomeOurPartners />
+      </div>
+    </div>
+
+    <div class="lg:py-20 py-4">
+      <div class="container lg:px-4 px-2">
+        <div
+          class="lg:mb-8 mb-4 text-center latest-posts-animate-box animate__animated"
+        >
+          <h1
+            class="lg:text-4xl text-2xl font-extrabold text-black dark:text-white"
+          >
+            {{ $tm("components.pages.home.howItWorks.title") }}
+          </h1>
+        </div>
+
+        <MainHomeHowItWorks :how="($tm('components.pages.home.howItWorks.findSize')  as Object )" />
+        <MainHomeHowItWorks :how="($tm('components.pages.home.howItWorks.findProduct')  as Object )" />
+
+      </div>
+    </div>
+
 
     <div class="bg-baseYellow-700 text-white">
       <div class="lg:py-20 py-4">

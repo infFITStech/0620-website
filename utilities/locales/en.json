@@ -139,6 +139,46 @@
             "title": "Feel daunting for your eCommerce sales?",
             "values": ["銷售量停擺", "尺寸不合帶來退貨率","顧客忠誠度低","客服成本佔比高"      
             ]
+          },
+          "howItWorks":{
+            "title": "How it works",
+            "findSize":{
+              "title": "InfFITS AI 找尺寸",
+              "values":["How it works findSize", "How it works","How it works", "How it works"],
+              "results":[
+                {
+                  "name":"Refund Rate",
+                  "value":"14.1"
+                },
+                {
+                  "name":"Conversion Rate",
+                  "value":"XX.Y"
+                },
+                {
+                  "name":"XYZ Rate",
+                  "value":"31.2"
+                }
+              ]
+            },
+            "findProduct":{
+              "title": "InfFITS AI 找商品",
+              "values":["How it works findProduct", "How it works","How it works", "How it works"],
+              "results":[
+                {
+                  "name":"Refund Rate",
+                  "value":"14.1"
+                },
+                {
+                  "name":"Conversion Rate",
+                  "value":"XX.Y"
+                },
+                {
+                  "name":"XYZ Rate",
+                  "value":"31.2"
+                }
+              ]
+            }
+            
           }
           
         },
@@ -448,6 +488,7 @@
           },
           "latestPosts": {},
           "latestVideos": {}
+          
         }
       }
     },

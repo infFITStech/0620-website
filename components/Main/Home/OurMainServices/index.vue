@@ -21,9 +21,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="lg:w-6/12 w-full our-main-services-animate-box animate__animated"
-    >
+    <div class="lg:w-6/12 w-full our-main-services-animate-box animate__animated" >
       <div class="2xl:ps-16 ps-2">
         <ul class="flex flex-wrap">
           <li
