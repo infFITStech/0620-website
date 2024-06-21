@@ -1,7 +1,8 @@
 <template>
     <div>
         <div class="inf-fits-benefits">
-            <div class="benefit-row" v-for="(row, rowIndex) in cardRows" :key="rowIndex">
+            <div class="benefit-row " v-for="(row, rowIndex) in cardRows" :key="rowIndex">
+
               <div
                 class="benefit py-20 px-10"
                 :class="{'highlight': rowIndex === 0 && index === 0, 'gray': (rowIndex === 0 && index === 2)||(rowIndex === 1 && index === 0), 'yellow':( rowIndex === 0 && index === 1)||(rowIndex === 1 && index === 2)}"
@@ -14,6 +15,7 @@
                 <h3 class="mb-11">{{ card.title }}</h3>
                 <p>{{ card.body }}</p>
               </div>
+
             </div>
           </div>
     </div>

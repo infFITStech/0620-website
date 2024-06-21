@@ -1,7 +1,8 @@
 <template>
-  <ul class="flex items-center justify-center overflow-x-auto">
-    <li v-for="(item, index) in partners" :key="index">
-      <div class="lg:mx-8 mx-2 lg:w-[160px] lg:h-[64px]">
+  <ul class="flex items-center justify-center overflow-x-scroll " style="-ms-overflow-style: none; scrollbar-width: none; ">
+    <li v-for="(item, index) in partners" :key="index" class="min-w-[160px]">
+      <div class="lg:mx-8 mx-2 ">
+        <!-- lg:w-[160px] lg:h-[64px] -->
         <NuxtImg :src="`/images/${item}`" class="w-full h-full" />
       </div>
     </li>
@@ -33,4 +34,8 @@ const partners = [
 
 // hooks
 </script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.test{
+  color: #e0d58c;
+}
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <div style="background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); ">
+  <div style=" ">
     <div class="flex flex-wrap lg:flex-row flex-col-reverse lg:mb-8 mb-4" >
       <!-- <div class="lg:w-4/12 w-full animate__animated"
       >
@@ -44,7 +44,7 @@
 
       <div class=" w-full lg:mb-0 mb-4">
         
-        <div class="w-full lg:h-[506px] h-[190px] " >
+        <div class="w-full sm:h-[506px] h-[190px] " >
           <!-- <NuxtImg
             src="/images/undraw_pair_programming.svg"
             class="w-full h-full"
@@ -55,7 +55,7 @@
               <h1>Boost your eCommerce Sales</h1>
               <h2>with the infFITS AI Service</h2>
               <p>精準的購物體驗，提高商品選購率</p>
-              <button @click="a">Book a Demo</button>
+              <button @click="a" style="border-radius:999999px ; width:45%; font-size:0.8rem;">Book a Demo</button>
             </div>
 
             
@@ -89,20 +89,22 @@
 </template>
 
 <style scoped lang="css">
-.content h1 {
-  font-size: 2.5rem;
+
+
+.content h2, .content h1 {
+  font-size: 2.4rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  scale: 1.3;
+  color: #626262;
 }
 
-.content h2 {
-  font-size: 2rem;
-  font-weight: normal;
-  margin-bottom: 1rem;
+.content h1{
+  color: #333
 }
 
 .content p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -112,7 +114,7 @@
   color: white;
   background-color: black;
   border: none;
-  border-radius: 5px;
+  
   cursor: pointer;
 }
 

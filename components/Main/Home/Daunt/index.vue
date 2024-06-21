@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full challenges">
+    <div class="w-full challenges " style="overflow-x:scroll ;-ms-overflow-style: none; scrollbar-width: none; ">
         <div v-for="(daunt, index) in props.daunts" :key="index" class="challenge">
           <div class="image-placeholder"></div>
           <p>{{daunt}}</p>

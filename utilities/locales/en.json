@@ -37,7 +37,7 @@
       "layouts": {
         "header": {
           "items": [
-            { "text": "Services", "link": "/" },
+            { "text": "Services", "link": "/" , "list":true},
             { "text": "Customers", "link": "/Customers" },
             { "text": "Company", "link": "/Company" },
             { "text": "Showroom", "link": "/Showroom" }

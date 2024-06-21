@@ -38,13 +38,15 @@
               </div>
             </div>
           </div>
-        <div class="w-full lg:mb-0 mb-4 flex">
-            <div v-for="(item, index) in result" class="w-1/3 flex justify-center">
-                <div>
+
+          
+        <div class="w-full lg:mb-0 mb-4 flex lg:pt-20 pt-4">
+            <div v-for="(item, index) in how.results" class="w-1/3 flex justify-center flex-col items-center">
+                <div class="flex flex-col items-center mb-3">
                     <h3 :class="{'negative': item.value.startsWith('-'), 'positive': item.value.startsWith('+')}">{{ item.value }}%</h3>
                      <p>{{ item.name }}</p>
                 </div>
-                <img src="/images/inffits_f_Logo.png" alt="logo" class="w-16">
+                <img src="/images/inffits_f_Logo.png" alt="logo" class="stat-icon">
             </div>
 
         </div>
@@ -80,6 +82,23 @@ const props = defineProps<Props>();
   
   .item-text {
     flex: 1;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #666;
+  }
+
+  .stat-icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
   }
   
   </style>

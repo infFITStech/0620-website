@@ -1,19 +1,19 @@
 <template>
   <div>
     <!-- lg:pt-8 -->
-    <div class="bg-white dark:bg-gray-900  lg:pb-0 py-2 pt-0">
+    <div class="bg-white dark:bg-gray-900  lg:pb-0 py-2 " style="background: linear-gradient(135deg, white 0%, #e0d58c 100%); margin-top:70px;" >
       <div class="container">
         <MainHomeIntroduction />
       </div>
     </div>
 
-    <div class="lg:py-0 py-4 dark:bg-[#fda]">
+    <div class="lg:py-0 py-4 dark:bg-[#fda] my-24">
       <div class="container lg:px-4 px-2">
         <MainHomeOurPartners />
       </div>
     </div>
 
-    <div class="lg:py-20 py-4">
+    <div class="lg:py-20 py-4 ">
       <div class="container lg:px-4 px-2">
         <div
           class="lg:mb-8 mb-4 text-center latest-posts-animate-box animate__animated"
@@ -34,7 +34,7 @@
     
 
     <div class="lg:py-20 py-4">
-      <div class="container lg:px-4 px-2">
+      <div class=" ">
         <!-- <MainHomeWhyChooseUs /> -->
          <MainHomeInfFITSBenefits />
       </div>
@@ -59,8 +59,15 @@
         </div>
 
         <MainHomeHowItWorks :how="($tm('components.pages.home.howItWorks.findSize')  as Object )" />
+        <div class="lg:pt-20 pt-4"></div>
         <MainHomeHowItWorks :how="($tm('components.pages.home.howItWorks.findProduct')  as Object )" />
 
+      </div>
+    </div>
+
+    <div class="bg-white dark:bg-gray-900  lg:pb-0 py-2 pt-0" style="background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);">
+      <div class="container">
+        <MainHomeBookADemo />
       </div>
     </div>
 

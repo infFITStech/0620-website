@@ -60,4 +60,15 @@ onMounted(() => {
   useLoadingState().value = false;
 });
 </script>
-<style scoped lang="scss"></style>
+<style lang="css">
+.container {
+  max-width: 100%;
+  padding-right: 40px;
+  padding-left: 40px;
+
+}
+
+body{
+  line-height:normal !important;
+}
+</style>

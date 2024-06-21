@@ -4,10 +4,8 @@
 
 
         <div class="f-button" style=" background-color: white;">
-            <button class=" " @click="floatingButtonClick">
                 <img src="/images/inffits_f_Logo.png" alt="Icon" />
-            </button>
-
+            
         </div>
        
 
@@ -26,13 +24,13 @@
     right: 40px;
     background-color: white;
     border: none;
-    border-radius: 50%;
+    border-radius: 45%;
     width: 50px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
     cursor: pointer;
   }
   
